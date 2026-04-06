@@ -8,8 +8,15 @@ Esta es una API RESTful desarrollada en Java Spring Boot para la gestión de cli
 - MySQL
 
 ## Documentación de la API
-Una vez iniciada la aplicación, la documentación interactiva (Swagger UI) está disponible en:
+
+Para iniciar la aplicación:
+`.\mvnw spring-boot:run`
+
+Una vez iniciada la aplicación, la documentación (Swagger UI) está disponible en el siguiente enlace:
 `http://localhost:8080/swagger-ui.html`
+
+Para ejecutar los test unitarios:
+`.\mvnw clean test`
 
 ## Script de Base de Datos Inicial
 
