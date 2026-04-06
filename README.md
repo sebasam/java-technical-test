@@ -10,13 +10,17 @@ Esta es una API RESTful desarrollada en Java Spring Boot para la gestión de cli
 ## Documentación de la API
 
 Para iniciar la aplicación:
-`.\mvnw spring-boot:run`
+```
+.\mvnw spring-boot:run
+```
 
 Una vez iniciada la aplicación, la documentación (Swagger UI) está disponible en el siguiente enlace:
 `http://localhost:8080/swagger-ui.html`
 
 Para ejecutar los test unitarios:
-`.\mvnw clean test`
+```
+.\mvnw clean test
+```
 
 ## Script de Base de Datos Inicial
 
